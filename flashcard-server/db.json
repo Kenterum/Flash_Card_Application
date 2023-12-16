@@ -1,0 +1,13 @@
+{
+    "cards": [
+      {
+        "id": 1,
+        "front": "What is React?",
+        "back": "A JavaScript library for building user interfaces.",
+        "status": "Want to Learn",
+        "lastModified": "2023-12-16T10:00:00Z"
+      }
+     
+    ]
+  }
+  
