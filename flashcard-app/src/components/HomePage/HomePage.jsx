@@ -1,5 +1,5 @@
 import React from 'react';
-
+import './HomePage.css'
 const HomePage = () => {
   const projectList = [
     { name: "MDMS(Java Project)", url: "https://github.com/Kenterum/Online_Movie_Database_Management_System" },
@@ -11,7 +11,7 @@ const HomePage = () => {
     <div>
       <h1>Welcome to the Flash Card App!</h1>
       <p>This is a great place to start learning.</p>
-      <h2>My Projects</h2>
+      <h2>Developer's Portfolio</h2>
       <ul>
         {projectList.map((project, index) => (
           <li key={index}>
