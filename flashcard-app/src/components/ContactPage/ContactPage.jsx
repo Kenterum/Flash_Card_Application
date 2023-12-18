@@ -87,7 +87,7 @@ const ContactPage = () => {
             disabled={loading}
           />
         </div>
-        <button type="submit" disabled={loading}>
+        <button className="send-message" type="submit"  disabled={loading}>
   {loading ? <div className="loading-spinner"></div> : 'Send Message'}
 </button>
       </form>
