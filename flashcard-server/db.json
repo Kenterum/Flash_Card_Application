@@ -1,0 +1,49 @@
+{
+  "cards": [
+        {
+          "id": 1,
+          "front": "What is React?",
+          "back": "A JavaScript library for building user interfaces.",
+          "status": "Want to Learn",
+          "lastModified": "2024-01-03T10:00:00Z"
+        }
+  ],
+  "messages": [
+    {
+      "email": "test@test.com",
+      "subject": "test",
+      "message": "test",
+      "id": 1
+    },
+    {
+      "email": "suleymammadov@gmail.com",
+      "subject": "asasd",
+      "message": "asdasd",
+      "id": 2
+    },
+    {
+      "email": "asdasdaasd@gmail.com",
+      "subject": "asdasd",
+      "message": "asdasd",
+      "id": 3
+    },
+    {
+      "email": "suleymammadov@gmail.com",
+      "subject": "qwewqe",
+      "message": "qweqwe",
+      "id": 4
+    },
+    {
+      "email": "qwewqe@asdad.com",
+      "subject": "qweqwe",
+      "message": "qweqwe",
+      "id": 5
+    },
+    {
+      "email": "suleymammadov@gmail.com",
+      "subject": "asdasd",
+      "message": "gjhhgjfj",
+      "id": 6
+    }
+  ]
+}
