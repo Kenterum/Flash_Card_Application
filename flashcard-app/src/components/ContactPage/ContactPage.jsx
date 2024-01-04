@@ -32,19 +32,16 @@ const ContactPage = () => {
 
     setLoading(true);
     try {
-      // Post the data to the server
       await axios.post('http://localhost:3000/messages', {
         email,
         subject,
         message
       });
-      // Handle the response here (e.g., clear the form, notify the user)
       setSuccess('Message sent successfully!');
       setEmail('');
       setSubject('');
       setMessage('');
     } catch (error) {
-      // Handle any errors here, like showing an error message to the user
       console.error("There was an error sending the message:", error);
       setError('There was an error sending your message.'); // Notify the user of the error
     } finally {
